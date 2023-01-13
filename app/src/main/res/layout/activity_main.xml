@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#41809C">
+
+    <EditText
+        android:textAlignment="center"
+        android:id="@+id/edttext1"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите имю"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"/>
+
+    <EditText
+        android:textAlignment="center"
+        android:id="@+id/edttext2"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите фамилию"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"/>
+
+    <EditText
+        android:textAlignment="center"
+        android:id="@+id/edttext3"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите телефон номер"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"/>
+
+
+    <Button
+        android:id="@+id/btnok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="OK">
+
+    </Button>
+
+</LinearLayout>
