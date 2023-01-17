@@ -10,14 +10,7 @@
     android:background="#41809C">
 
 
-    <EditText
-        android:textAlignment="center"
-        android:id="@+id/edttext8"
-        android:layout_width="230dp"
-        android:layout_height="wrap_content"
-        android:hint="Введите имю"
-        android:textColor="@color/white"
-        android:backgroundTint="@color/white"/>
+
 
 
     <EditText
